@@ -1,4 +1,4 @@
-from collections import MutableSequence
+from collections.abc import MutableSequence
 import numpy as np
 
 from parser.ast.visitor.tree_visitor import VisitorOrder
